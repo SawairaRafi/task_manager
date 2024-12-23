@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = 'http://127.0.0.1:3000/api/'
+// const BASE_URL = 'http://127.0.0.1:3000/api/'
+const BASE_URL = 'https://task-manager-api-dyld.onrender.com/api/' // replace with your API URL
 const GET_URL = `${BASE_URL}todos`
 const POST_URL = `${BASE_URL}todos`
 const DELETE_URL = (id:string) => `${BASE_URL}todos/${id}`
